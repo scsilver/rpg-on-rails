@@ -1,1 +1,2 @@
-web: bin/rails server -p $PORT -b 0.0.0.0
+web: bundle exec puma -t 5:5 -p ${PORT:-3000}
+
