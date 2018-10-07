@@ -16,6 +16,6 @@
   "plugins": [
     "syntax-dynamic-import",
     "transform-object-rest-spread",
-      "transform-class-properties",
+    "transform-class-properties",
   ]
 }
