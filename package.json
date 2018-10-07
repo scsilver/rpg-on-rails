@@ -7,9 +7,6 @@
     "babel-plugin-transform-decorators-legacy": "^1.3.5",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
-  },
-  "devDependencies": {
     "@rails/webpacker": "3.5",
     "babel-core": "^6.26.3",
     "babel-loader": "7",
@@ -20,6 +17,9 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "scott-craft-2d": "https://github.com/scsilver/rpg.git",
-    "webpack-dev-server": "2.11.2"
-  }
+    "webpack-dev-server": "2.11.2",
+    "babel-preset-react": "^6.24.1"
+  },
+  "devDependencies": {
+ }
 }
