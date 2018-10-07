@@ -3,7 +3,8 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
 
 module.exports = {
-  module: {
+    mode: 'production',
+    module: {
     rules: [
       {
         test: /\.(js|jsx|ts)$/,
