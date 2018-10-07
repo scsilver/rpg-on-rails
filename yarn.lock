@@ -6142,6 +6142,14 @@ schema-utils@^0.4.0, schema-utils@^0.4.5:
     mobx-react "^5.2.5"
     react "^16.4.2"
 
+"scott-craft-2d@https://github.com/scsilver/rpg.git#master":
+  version "0.0.1"
+  resolved "https://github.com/scsilver/rpg.git#f48ce40193e2d8b6d82846e6e2bd4de0396eac79"
+  dependencies:
+    mobx "^5.0.3"
+    mobx-react "^5.2.5"
+    react "^16.4.2"
+
 scss-tokenizer@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/scss-tokenizer/-/scss-tokenizer-0.2.3.tgz#8eb06db9a9723333824d3f5530641149847ce5d1"
