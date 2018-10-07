@@ -1,6 +1,10 @@
 {
   "name": "proto-2-react-rails",
   "private": true,
+  "scripts": {
+  "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+  "heroku-postbuild": "echo This runs afterwards."
+  },
   "dependencies": {
     "@rails/webpacker": "3.5",
     "babel-cli": "^6.26.0",
