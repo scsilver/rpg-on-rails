@@ -6134,14 +6134,6 @@ schema-utils@^0.4.0, schema-utils@^0.4.5:
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
 
-"scott-craft-2d@https://github.com/scsilver/rpg.git":
-  version "0.0.1"
-  resolved "https://github.com/scsilver/rpg.git#cb83801116e56ae2abefdf25126f0fdcccd6f186"
-  dependencies:
-    mobx "^5.0.3"
-    mobx-react "^5.2.5"
-    react "^16.4.2"
-
 "scott-craft-2d@https://github.com/scsilver/rpg.git#master":
   version "0.0.1"
   resolved "https://github.com/scsilver/rpg.git#f48ce40193e2d8b6d82846e6e2bd4de0396eac79"

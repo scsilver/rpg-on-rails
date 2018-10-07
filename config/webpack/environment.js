@@ -1,4 +1,4 @@
-const { environment } = require('@rails/webpacker')
+const { environment, loaders } = require('@rails/webpacker')
 const customConfig = require('./webpack.config')
-environment.config.merge(customConfig)
+delete loaders.babel.exclude
 module.exports = environment
