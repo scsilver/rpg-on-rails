@@ -7,7 +7,18 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx|ts)$/,
-        exclude: /node_modules/
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["env", "react"],
+            plugins: [
+              "transform-decorators-legacy",
+              "transform-class-properties",
+              "syntax-object-rest-spread"
+            ]
+          }
+        }
       }
     ]
   }
